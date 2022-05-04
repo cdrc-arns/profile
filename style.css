@@ -1,0 +1,210 @@
+/*general*/
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+body {
+  margin: 0;
+}
+
+/*header */
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-size: 78px;
+  letter-spacing: 4px;
+}
+
+.head-text {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+/*biography*/
+.biography {
+  background-color: #dee2e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.bio-title {
+  color: #343a40;
+}
+
+.bio-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.bio-text {
+  width: 800px;
+  margin-left: 360px;
+  margin-right: auto;
+  text-align: center;
+  color: #343a40;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.orange-btn {
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #343a40;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.orange-btn:hover {
+  color: orangered;
+}
+
+/*agenda*/
+.agenda {
+  background-color: #ced4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.agenda-text {
+  width: 800px;
+  margin-left: 550px;
+  margin-right: auto;
+  text-align: left;
+  color: #495057;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.agenda-title {
+  color: #495057;
+}
+
+/*releases*/
+.releases {
+  background-color: #adb5bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.releases-title {
+  color: #6c757d;
+}
+
+.bc-frames {
+  width: 1000px;
+}
+
+.frame-card {
+  margin: 5px;
+}
+
+/*mixes*/
+/*mixes*/
+.mixes {
+  background-color: #6c757d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.mixes-title {
+  color: #dee2e6;
+}
+
+/*support*/
+.support {
+  background-color: #495057;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  text-align: center;
+
+}
+
+.support-text {
+  width: 800px;
+  text-align: center;
+  color: #e9ecef;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.support-title {
+  color: #e9ecef;
+}
+
+/*footer*/
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+i {
+  color: white;
+  font-size: 24px;
+  margin: 20px;
+}
+
+i:hover {
+  color: orangered;
+}
